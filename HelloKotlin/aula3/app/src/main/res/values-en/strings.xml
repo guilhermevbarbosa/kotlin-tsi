@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Class 3</string>
+    <string name="nome">Name</string>
+    <string name="qual_seu_genero">What your gender?</string>
+    <string name="feminino">She</string>
+    <string name="masculino">He</string>
+    <string name="nao_informar">No answer</string>
+    <string name="enviar">Send</string>
+    <string name="nao_informar_valor">Not defined</string>
+    <string name="enviado">Sended</string>
+    <string name="escolha">you has chosen</string>
+</resources>
