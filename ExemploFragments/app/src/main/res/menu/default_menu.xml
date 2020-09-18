@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/android_icon"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sair"
+        android:icon="@android:drawable/checkbox_off_background"
+        android:title="Sair"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>
