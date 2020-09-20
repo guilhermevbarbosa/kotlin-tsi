@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aula03</string>
+    <string name="name">Nome</string>
+    <string name="pronoum_msg">Que pronome você gostaria de usar</string>
+    <string name="she">Ela</string>
+    <string name="he">Ele</string>
+    <string name="no_anwser">Prefiro não responder</string>
+    <string name="finish">Terminar</string>
+    <string name="neutral">Neutro</string>
+    <string name="finished">Conclúido</string>
+    <string name="hello">"Olá, "</string>
+    <string name="choice">"Sua escolha "</string>
+</resources>
