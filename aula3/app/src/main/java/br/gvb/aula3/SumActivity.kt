@@ -10,7 +10,7 @@ class SumActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sum)
 
         btnSomar.setOnClickListener {
-            val result = ( etValor1.text.toString().toInt() + etValor2.text.toString().toInt() );
+            val result = ( etValor1.text.toString().toInt() + etValor2.text.toString().toInt() )
             etResult.setText( result.toString() )
         }
 
