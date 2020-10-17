@@ -10,15 +10,15 @@ class FragDinamActivity : AppCompatActivity() {
         setContentView(R.layout.activity_frag_dinam)
 
         btnFrag1.setOnClickListener {
-            val frag1 = FragmentoTeste()
 
-            supportFragmentManager.beginTransaction().replace(R.id.fragContainer, frag1).commit()
         }
+        val frag1 = FragmentoTeste()
+        supportFragmentManager.beginTransaction().replace(R.id.fragContainer, frag1).commit()
+        val frag2 = FragmentoTeste()
+        supportFragmentManager.beginTransaction().replace(R.id.fragContainer1,frag2).commit()
 
         btnFrag2.setOnClickListener {
-            val frag2 = FragmentoTeste02()
 
-            supportFragmentManager.beginTransaction().replace(R.id.fragContainer, frag2).commit()
         }
     }
 }

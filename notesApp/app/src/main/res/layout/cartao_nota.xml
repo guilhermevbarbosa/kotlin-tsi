@@ -25,5 +25,13 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="TextView"
+            android:textAlignment="textEnd" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

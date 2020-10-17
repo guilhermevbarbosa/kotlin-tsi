@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".atividades.UsuarioActivity"></activity>
+        <activity
+            android:name=".atividades.ConfigActivity"
+            android:label="@string/title_activity_config"></activity>
+        <activity android:name=".atividades.UsuarioActivity" />
         <activity android:name=".atividades.NovaNotaActivity" />
         <activity android:name=".atividades.ListaNotasActivity">
             <intent-filter>
